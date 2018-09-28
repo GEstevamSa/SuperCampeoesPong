@@ -41,7 +41,7 @@ public class PingPongBaiano extends JFrame implements ActionListener{
         bx += velX;
         by += velY;
         
-        if( bx > 705 && by > iay && by < iay + 100){
+        if( bx > 705 && bx < 710 && by > iay && by < iay + 100){
             velX *= -1;
         }
         
